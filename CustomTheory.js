@@ -17,6 +17,9 @@ var c1Exp, c2Exp;
 var init = () => {
     currency1 = theory.createCurrency();
     currency2 = theory.createCurrency();
-theory.primaryEquationHeight = 120
+theory.primaryEquationHeight = 120;
 var getprimaryEquation = () => {
-        let result = "\\dot {\\rho_1} = c_1 * c_2
+        let result = "\\dot {\\rho_1} = c_1 * c_2";
+        
+        return result;
+}
