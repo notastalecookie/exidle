@@ -8,7 +8,7 @@ var id = "student_loans";
 var name = "Student Loans";
 var description = "A theory based on student's t distribution and loaning rho to push your tau.";
 var authors = "notastalecookie";
-var version = 0;
+var version = 1;
 
 var currency1, currency2;
 var c1, c2, ;
