@@ -12,7 +12,7 @@ var authors = "notastalecookie";
 var version = 1;
 
 var currency1, currency2;
-var c_1, c_2, ;
+var c_1, c_2;
  //// filler, var ms upgrades
         
 var init = () => {
@@ -22,10 +22,10 @@ var init = () => {
 
   // c_1
 {
-        let getDesc = (level) => "c_1="getc_1(level).toString(0);
-        c_1 = theory.createUpgrade(0, currency2, new FirstFreeCost(new Exponentialcost(15, Math.log2(2))));
-        c_1.getDescription = (amount) => Utils.getMath(getDesc(b1.level));
-        c_1.getInfo = (amount) => Utils.getMathTo(getDesc(b2.level), getDesc(b2.level + amount));
+   let getDesc = (level) => "c_1="getc_1(level).toString(0);
+   c_1 = theory.createUpgrade(0, currency2, new FirstFreeCost(new Exponentialcost(15, Math.log2(2))));
+   c_1.getDescription = (amount) => Utils.getMath(getDesc(b1.level));
+   c_1.getInfo = (amount) => Utils.getMathTo(getDesc(b2.level), getDesc(b2.level + amount));
 }
         
   // c_2 
@@ -68,3 +68,6 @@ var getTau = () => currency1.value^0.1;
 
 
  init();
+
+
+
