@@ -41,7 +41,7 @@ var init = () => {
     theory.createAutoBuyerUpgrade(2, currency2, 1e30);
  currency2 = theory.createCurrency();
 }
-theory.primaryEquationHeight = 120;
+theory.primaryEquationHeight = 5;
 var getprimaryEquation = () => {
  let result = "\\dot {\\rho_1} = c_1 * c_2";
         
