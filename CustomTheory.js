@@ -45,3 +45,12 @@ var getprimaryEquation = () => {
         
  return result;
 }
+    currency1.value += dt * c_1 * c_2;
+    currency2.value += currency1.value
+var tick = (elapsedTime, multiplier) => {
+    let dt = BigNumber.from(elapsedTime);
+}
+
+
+var getc_1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 0);
+var getc_2 = (level) => BigNumber.TWO.pow(level);
