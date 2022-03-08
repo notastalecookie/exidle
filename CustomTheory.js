@@ -17,6 +17,7 @@ var c_1, c_2;
         
 var init = () => {
   currency1 = theory.createCurrency();
+  currency2 = theory.createCurrency();
   ///////////////////
   // Regular Upgrades
 
@@ -39,7 +40,7 @@ var init = () => {
     theory.createPublicationUpgrade(0, currency2, 1e9);
     theory.createBuyAllUpgrade(1, currency2, 1e13);
     theory.createAutoBuyerUpgrade(2, currency2, 1e30);
- currency2 = theory.createCurrency();
+
  
  theory.primaryEquationHeight = 5;
 }
