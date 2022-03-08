@@ -61,3 +61,8 @@ var tick = (elapsedTime, multiplier) => {
     currency1.value += dt * bonus * c_1 * c_2;
     currency2.value += currency1.value;
 }
+
+var getPublicationMultiplier = (tau) => tau.pow(0.147) * BigNumber.THREE;
+var getPublicationMultiplierFormula = (symbol) => "3{" + symbol + "}^{1.47}";
+var getTau = () => currency1.value^0.1;
+
