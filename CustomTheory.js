@@ -7,6 +7,9 @@ import { Utils } from "./api/Utils";
 var id = "student_loans101";
 var name = "Student Loans";
 var description = "A theory based on student's t distribution and loaning rho to push your tau";
+var authors = "notastalecookie";
+var version = 1;
+
 
 
  //// filler, var ms upgrades
