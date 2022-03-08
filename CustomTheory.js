@@ -22,13 +22,13 @@ var init = () => {
   // Regular Upgrades
 
   // c_1
-///{
-   //let getDesc = (level) => "c_1=" + getc_1(level).toString(0);
-   //c_1 = theory.createUpgrade(2, currency2, new ExponentialCost(15, Math.log2(2)));
-   //c_1.getDescription = (amount) => Utils.getMath(getDesc(c_1.level));
-   //c_1.getInfo = (amount) => Utils.getMathTo(getDesc(c_1.level), getDesc(c_1.level + amount));
+{
+   let getDesc = (level) => "c_1=" + getc_1(level).toString(0);
+   c_1 = theory.createUpgrade(2, currency2, new ExponentialCost(15, Math.log2(2)));
+   c_1.getDescription = (amount) => Utils.getMath(getDesc(c_1.level));
+   c_1.getInfo = (amount) => Utils.getMathTo(getDesc(c_1.level), getDesc(c_1.level + amount));
  
-//}
+}
         
   // c_2 
 {
@@ -65,6 +65,6 @@ var tick = (elapsedTime, multiplier) => {
 var getPublicationMultiplier = (tau) => tau.pow(0.147) * BigNumber.THREE;
 var getPublicationMultiplierFormula = (symbol) => "3{" + symbol + "}^{1.47}";
 var getTau = () => currency1.value^0.1;
-
+var getc_1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 0);
 var getc_2 = (level) => BigNumber.TWO.pow(level);
 init();
