@@ -61,4 +61,3 @@ var tick = (elapsedTime, multiplier) => {
     currency1.value += dt * bonus * c_1 * c_2;
     currency2.value += currency1.value;
 }
-
