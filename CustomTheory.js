@@ -72,3 +72,4 @@ var getTau = () => currency1.value^0.1;
 
 
 
+
