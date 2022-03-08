@@ -11,5 +11,3 @@ var description = "A theory based on student's t distribution and loaning rho to
 var authors = "notastalecookie";
 var version = 1;
 
-var currency1, currency2;
-var c_1, c_2, ;
