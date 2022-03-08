@@ -65,4 +65,10 @@ var tick = (elapsedTime, multiplier) => {
 var getPublicationMultiplier = (tau) => tau.pow(0.147) * BigNumber.THREE;
 var getPublicationMultiplierFormula = (symbol) => "3{" + symbol + "}^{1.47}";
 var getTau = () => currency1.value^0.1;
+var getc_1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 0);
+var getc_2 = (level) => BigNumber.TWO.pow(level);
+
+
+
+ init();
 
