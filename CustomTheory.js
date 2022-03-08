@@ -28,7 +28,7 @@ var init = () => {
    //c_1.getDescription = (amount) => Utils.getMath(getDesc(c_1.level));
    //c_1.getInfo = (amount) => Utils.getMathTo(getDesc(c_1.level), getDesc(c_1.level + amount));
  
-}
+//}
         
   // c_2 
 {
