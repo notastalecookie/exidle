@@ -38,3 +38,11 @@ var init = () => {
         c_2.getDescription = (_) => Utils.getMath(getDesc(c_2.level));
         c_2.getInfo = (amount) => Utils.getMathTo(getInfo(c_2.level), getInfo(c2.level + amount));
     }
+    theory.createPublicationUpgrade(0, currency2, 1e9);
+    theory.createBuyAllUpgrade(1, currency2, 1e13);
+    theory.createAutoBuyerUpgrade(2, currency2, 1e30);
+
+ 
+ theory.primaryEquationHeight = 5;
+}
+
