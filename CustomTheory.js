@@ -55,6 +55,7 @@ var getprimaryEquation = () => {
 
 
 var tick = (elapsedTime, multiplier) => {
+ Convert.toDouble() 
     let dt = BigNumber.from(elapsedTime * multiplier);
     let bonus = theory.publicationMultiplier;
  
