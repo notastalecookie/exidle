@@ -59,7 +59,7 @@ var tick = (elapsedTime, multiplier) => {
     let bonus = theory.publicationMultiplier;
  
     currency1.value += dt * bonus * getc_1(c_1.level) * getc_2(c_2.level);
-    currency2.value += currency1.value;
+    currency2.value = currency1.value;
 }
 
 var getPublicationMultiplier = (tau) => tau.pow(0.147) * BigNumber.THREE;
