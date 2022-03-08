@@ -50,3 +50,15 @@ var getprimaryEquation = () => {
         
  return result;
 }
+
+
+
+var tick = (elapsedTime, multiplier) => {
+ 
+    let dt = BigNumber.from(elapsedTime * multiplier);
+    let bonus = theory.publicationMultiplier;
+ 
+    currency1.value += dt * bonus * c_1 * c_2;
+    currency2.value += currency1.value;
+}
+
