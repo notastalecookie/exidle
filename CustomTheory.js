@@ -45,4 +45,8 @@ var init = () => {
  
  theory.primaryEquationHeight = 5;
 }
-
+var getprimaryEquation = () => {
+ let result = "\\dot {\\rho_1} = c_1 * c_2";
+        
+ return result;
+}
